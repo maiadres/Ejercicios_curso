@@ -1,0 +1,15 @@
+p {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 15px;
+}
+#titulo-principal{
+text-align: center;
+color:palevioletred;  
+}
+.subtitulo{
+color:rgb(242, 170, 182);
+font-weight:bold;    
+}
+ul a {
+    text-decoration: none;
+}
