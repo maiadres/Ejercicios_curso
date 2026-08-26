@@ -1,0 +1,26 @@
+*{
+box-sizing: border-box;
+
+}
+.galeria{
+    display:flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.tarjeta-foto{
+    width: 95%;
+}
+img{
+    width: 50%;
+    height: auto;
+}
+@media (max-width: 768px)  { 
+    .galeria{
+     flex-direction: row;   
+    }
+    .tarjeta-foto{
+        width: 31%;
+    }
+
+ }
+    
