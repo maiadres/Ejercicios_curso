@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.hero-banner{
+    height: 100vh;
+    background-color: rgba(185, 79, 79, 0.744);
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    text-align: center;      /* Alineación del texto */
+    flex-direction: column;
+}
+.hero-banner h1 {
+    font-size: 50px; /* Un tamaño de texto bien grande */
+    color: #222222; /* Un gris muy oscuro */
+    margin-bottom: 25px; /* Separa el título del párrafo */
+}
+
+.hero-banner p {
+    font-size: 25px; /* Un poco más grande que lo normal */
+    color: #444444;
+}
+@media(max-width: 768px){
+    .hero-banner h1 {
+        font-size: 20px;
+    }
+    .hero-banner p {
+        font-size: 10px;
+    }
+
+}
